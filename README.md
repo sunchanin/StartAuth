@@ -32,6 +32,7 @@ This repository provides a reusable authentication module for Node.js applicatio
 3. Set up environment variables:
    Create a `.env` file in the root directory with the following:
    ```env
+   PORT=3000
    ACCESS_TOKEN_SECRET=your-secret-key
    EXPIRES_IN=1d
    SALT_ROUNDS=10
