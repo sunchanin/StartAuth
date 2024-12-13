@@ -20,7 +20,7 @@ This repository provides a reusable authentication module for Node.js applicatio
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/StartAuth.git
+   git clone https://github.com/sunchanin/StartAuth.git
    cd authentication
    ```
 
