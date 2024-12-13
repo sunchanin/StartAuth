@@ -28,7 +28,7 @@ const login = async (loginData) => {
       throw new Error("Invalid username or password");
     }
 
-    const payload = { id: user.id };
+    const payload = { id: user.id, email: user.email };
     const token = generateToken(payload);
 
     const response = { email: user.email, token };

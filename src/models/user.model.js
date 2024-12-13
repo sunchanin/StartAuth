@@ -33,4 +33,14 @@ const getUser = async (email) => {
   }
 };
 
-module.exports = { postUser, getUser };
+const getAllUsers = async () => {
+  try {
+    const users = await prisma.user.findMany();
+    return users;
+  } catch (err) {
+    console.log("err: ", err);
+    throw new Error(err.message);
+  }
+};
+
+module.exports = { postUser, getUser, getAllUsers };
