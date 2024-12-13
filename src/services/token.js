@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken"); // Import JSON Web Token (JWT) library
 
 require("dotenv").config(); // Load environment variables from .env file
-const secretKey = process.env.SECRET_KEY; // Retrieve the secret key for JWT signing from environment variables
+const secretKey = process.env.ACCESS_TOKEN_SECRET; // Retrieve the secret key for JWT signing from environment variables
 
 /**
  * Generate a JWT token.
