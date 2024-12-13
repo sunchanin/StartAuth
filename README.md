@@ -124,11 +124,6 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
 ## Support
 If you encounter any issues or have questions, please open an issue on GitHub or contact [chanin.kre@gmail.com].
 
