@@ -36,6 +36,7 @@ This repository provides a reusable authentication module for Node.js applicatio
    ACCESS_TOKEN_SECRET=your-secret-key
    EXPIRES_IN=1d
    SALT_ROUNDS=10
+   DATABASE_URL="postgresql://postgres:postgres@db:5432/mydb?schema=public"
    ```
 
 ---
